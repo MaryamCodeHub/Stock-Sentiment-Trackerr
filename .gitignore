@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# ML Models (use MLflow/DVC for versioning)
+backend/src/ml/models/*.pkl
+backend/src/ml/models/*.joblib
+backend/src/ml/models/*.onnx
+mlruns/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.env
+
+# Docker
+*.log
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (belt-and-suspenders)
+*.pem
+*.key
+*.crt
+secrets/

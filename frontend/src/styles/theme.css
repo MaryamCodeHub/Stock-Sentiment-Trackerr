@@ -1,0 +1,38 @@
+:root {
+  --color-primary: #6366f1;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+}
+
+[data-theme="dark"],
+:root {
+  --bg-base: #0f172a;
+  --bg-card: #1e293b;
+  --bg-surface: #334155;
+
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  --border-color: #334155;
+  --border-strong: #475569;
+
+  --gradient-hero: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
+}
+
+[data-theme="light"] {
+  --bg-base: #f8fafc;
+  --bg-card: #ffffff;
+  --bg-surface: #f1f5f9;
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+
+  --border-color: #e2e8f0;
+  --border-strong: #cbd5e1;
+
+  --gradient-hero: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
+}
+
